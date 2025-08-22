@@ -2,6 +2,7 @@ from flask import Flask, request, render_template
 import pickle
 import numpy as np
 import torch
+import os
 from model import MLPRegressor
 
 # ---- Load bundle: model + scaler + feature order ----
